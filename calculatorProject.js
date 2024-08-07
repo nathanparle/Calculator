@@ -67,6 +67,7 @@ buttonPlus.addEventListener('click', ()=> {if ( sign != "" && inputTwo > 0){
     operate(inputOne, inputTwo, sign, runningTotal);
     display.textContent = runningTotal;
     inputOne = runningTotal;
+    inputTwo = 0;
     }else { sign = "+"; display.textContent=sign}});
 buttonPlus.textContent = "+";
 container.appendChild(buttonPlus);
@@ -100,6 +101,7 @@ buttonMinus.addEventListener('click', ()=> {if ( sign != "" && inputTwo > 0){
     operate(inputOne, inputTwo, sign);
     display.textContent = runningTotal;
     inputOne = runningTotal;
+    inputTwo = 0;
     }else { sign = "-"; display.textContent=sign}});
 buttonMinus.textContent = "-";
 container.appendChild(buttonMinus);
@@ -133,6 +135,7 @@ buttonTimes.addEventListener('click', ()=> {if ( sign != "" && inputTwo > 0){
     operate(inputOne, inputTwo, sign);
     display.textContent = runningTotal;
     inputOne = runningTotal;
+    inputTwo = 0;
     }else { sign = "*"; display.textContent=sign}});
 buttonTimes.textContent = "*";
 container.appendChild(buttonTimes);
@@ -167,6 +170,7 @@ buttonDivide.addEventListener('click', ()=> {if ( sign != "" && inputTwo > 0){
     operate(inputOne, inputTwo, sign);
     display.textContent = runningTotal;
     inputOne = runningTotal;
+    inputTwo = 0;
     }else {sign = "/"; display.textContent = sign;}});
 buttonDivide.textContent = "/";
 container.appendChild(buttonDivide);
