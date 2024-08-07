@@ -12,7 +12,7 @@ const multiply = function (inputOne, inputTwo){
     runningTotal =  inputOne * inputTwo;
     }
 const divide = function( inputOne, inputTwo){
-    if ( inputTwo == 0 ){ runningTotal = "Infinity! - press clear!";}else{ 
+    if ( inputTwo == 0 ){ runningTotal = "8008! - press clear!";}else{ 
     runningTotal = inputOne / inputTwo;
     }}
 const operate = function (inputOne, inputTwo, sign){
